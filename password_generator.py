@@ -79,6 +79,7 @@ class PasswordGeneratorApp:
 
     def copy_to_clipboard(self):
         pyperclip.copy(self.password)
+        messagebox.showinfo("Успіх!", "Пароль скопійовано до буферу обміну")
 
 
 if __name__ == "__main__":
